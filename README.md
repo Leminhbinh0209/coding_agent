@@ -10,7 +10,7 @@ A small LLM-powered coding agent that can run tools (execute code, read/write fi
 |--------------------|-------------|
 | `agent.py`         | LLM client wrapper, simple coding agent, and planning agent. |
 | `tools.py`         | Tool implementations and OpenAI-style schemas. | 
-| `.env`              | `OPENROUTER_API_KEY` (or other API key for the base URL you use). |
+| `.env`              | `OPENROUTER_API_KEY` (Visit https://openrouter.ai/ to create free API key). |
 
 ---
 
