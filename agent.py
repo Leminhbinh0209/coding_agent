@@ -575,7 +575,7 @@ if __name__ == "__main__":
     DEEPSEEK_MODEL = "deepseek/deepseek-r1-0528:free"
     GEMMA_MODEL = "google/gemma-3-12b-it:free"
 
-    model_name = DEEPSEEK_MODEL
+    model_name = NEMOTRON_MODEL
     print("="*50, "Testing write file...", "="*50)
     working_dir = os.path.abspath(os.getcwd() + "/agent_files")
     os.makedirs(working_dir, exist_ok=True)
