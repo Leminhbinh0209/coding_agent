@@ -9,8 +9,7 @@ A small LLM-powered coding agent that can run tools (execute code, read/write fi
 | File / folder      | Description |
 |--------------------|-------------|
 | `agent.py`         | LLM client wrapper, simple coding agent, and planning agent. |
-| `tools.py`         | Tool implementations and OpenAI-style schemas. |
-| `agent_files/`     | Default working directory for file operations. |
+| `tools.py`         | Tool implementations and OpenAI-style schemas. | 
 | `.env`              | `OPENROUTER_API_KEY` (or other API key for the base URL you use). |
 
 ---
@@ -126,3 +125,5 @@ Colored state prints use labels like `[PLAN]`, `[EXEC]`, `[EXEC-TOOL]`, `[PLANNI
 | **Non-native tools** | Models like Gemma; agent injects tool docs into the prompt and parses `<tool_call>` (or ```tool_call```) from the reply. |
 | **Simple agent** | `coding_agent`: query → repeated tool rounds → final answer. |
 | **Planning agent** | `coding_agent_with_planning`: create plan (tool sequence) → execute each step with LLM-chosen arguments → final summary. |
+
+*[reference sources](https://www.deeplearning.ai/short-courses/building-coding-agents-with-tool-execution/)*: 
